@@ -22,6 +22,7 @@ gem "wicked_pdf", "~> 2.1"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
+  gem "figaro"
   gem "brakeman"
   gem "decidim-dev", "0.26.1"
 end
@@ -32,4 +33,12 @@ group :development do
   gem "spring", "~> 2.0"
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 4.0"
+
+  gem "capistrano", "~> 3.15"
+  gem "capistrano-bundler"
+  gem "capistrano-passenger"
+  gem "capistrano-rails"
+  gem "capistrano-rails-console"
+  gem "capistrano-rbenv"
+  gem "capistrano-sidekiq"
 end
