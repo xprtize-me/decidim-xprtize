@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 ruby RUBY_VERSION
-DECIDIM_VERSION="0.26.1"
+DECIDIM_VERSION = "0.26.1"
 
 gem "decidim", DECIDIM_VERSION
 gem "decidim-conferences", DECIDIM_VERSION
@@ -14,7 +14,6 @@ gem "decidim-conferences", DECIDIM_VERSION
 
 gem "decidim-decidim_awesome"
 gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer", branch: "develop"
-
 
 gem "bootsnap", "~> 1.3"
 
@@ -29,6 +28,7 @@ group :development, :test do
 
   gem "brakeman"
   gem "decidim-dev", DECIDIM_VERSION
+  gem "rubocop-faker"
 end
 
 group :development do

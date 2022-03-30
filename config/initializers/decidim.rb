@@ -296,6 +296,5 @@ Rails.application.config.to_prepare do
   Decidim::Api::Schema.max_depth = 50
 end
 
-
 # Inform Decidim about the assets folder
 Decidim.register_assets_path File.expand_path("app/packs", Rails.application.root)
