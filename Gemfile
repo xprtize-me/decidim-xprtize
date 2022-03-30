@@ -22,7 +22,6 @@ gem "wicked_pdf", "~> 2.1"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "figaro"
   gem "brakeman"
   gem "decidim-dev", "0.26.1"
 end
@@ -41,4 +40,10 @@ group :development do
   gem "capistrano-rails-console"
   gem "capistrano-rbenv"
   gem "capistrano-sidekiq"
+end
+
+group :production do
+  gem "figaro"
+  gem "sidekiq"
+  gem "sidekiq-cron"
 end
