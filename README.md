@@ -2,6 +2,9 @@
 
 Free Open-Source participatory democracy, citizen participation and open government for cities and organizations
 
+[![Test](https://github.com/xprtize-me/decidim-xprtize/actions/workflows/test.yml/badge.svg)](https://github.com/xprtize-me/decidim-xprtize/actions/workflows/test.yml)
+
+
 This is the open-source repository for decidim_xprtize, based on [Decidim](https://github.com/decidim/decidim).
 
 ## Setting up the application
